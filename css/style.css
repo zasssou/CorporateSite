@@ -1,7 +1,9 @@
 /* ========================
     body
   ======================== */
-
+body {
+  position: relative;
+}
 
 /* ========================
     section - all
@@ -11,10 +13,46 @@
 /* ========================
     header
   ======================== */
+header {
+  position: fixed;
 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
 
-  /* header - navigation */
+  font-weight: bold;
+  background-color: #fff;
+  border-bottom: 1px solid #000000;
+}
 
+.header-title {
+  font-size: 40px;
+}
+
+nav {
+  height: 40px;
+  font-size: 20px;
+  color: #0000;
+}
+
+nav ul  {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 80px;
+}
+
+nav a {
+  line-height: 40px;
+  color: #000000;
+}
+
+nav a:hover {
+  color: #31c5b9;
+}
 
 /* ========================
     first-view
