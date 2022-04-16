@@ -154,6 +154,10 @@ nav a:hover {
   background-color: #31c5b9;
 }
 
+.service-container:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
 /* ========================
     section - 採用情報(employment)
   ======================== */
