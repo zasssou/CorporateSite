@@ -199,7 +199,25 @@ nav a:hover {
 /* ========================
     section - 会社概要(company-information)
   ======================== */
+.company-information-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: 0 10% 0 35%;
 
+  font-size: 18px;
+}
+
+.company-information-lists > dt {
+  padding: 35px 0;
+  width: 40%;
+}
+
+.company-information-lists > dd {
+  padding: 35px 0;
+  width: 60%;
+}
 
 /* ========================
     footer
